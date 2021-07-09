@@ -1,17 +1,20 @@
 <template>
   <body>
     <div class="center">
-      <img width="200px" class="inigo" src="images/inigo.png" />
+      <img @click="click" width="200px" id="inigo" src="images/inigo.png" />
     </div>
   </body>
 </template>
 
 <script>
+var audio = new Audio("music.mp3");
 export default {
-  mounted() {
-    var audio = new Audio('music.mp3');
-    audio.play()
-  }
+  methods: {
+    click() {
+      audio.play();
+      document.getElementById('inigo').classList.add('animate')
+    },
+  },
 };
 </script>
 
@@ -28,14 +31,18 @@ body {
   flex-direction: column;
   margin: auto;
 }
-.inigo {
+#inigo {
   margin: auto;
-  animation-name: inigo;
   border-radius: 100%;
+}
+
+.animate{
+  animation-name: inigo;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
 .text {
   color: white;
   text-align: center;
