@@ -1,14 +1,18 @@
 <template>
   <body>
     <div class="center">
-      <img class="inigo" src="images/inigo.png" />
-      <p class="text">If you can read me that means it's working.</p>
+      <img width="200px" class="inigo" src="images/inigo.png" />
     </div>
   </body>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    var audio = new Audio('music.mp3');
+    audio.play()
+  }
+};
 </script>
 
 
