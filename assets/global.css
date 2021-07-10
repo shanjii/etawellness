@@ -1,5 +1,8 @@
-*{
+* {
     margin: 0;
+}
+
+html {
     font-family: 'Roboto';
 }
 
@@ -7,6 +10,5 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
     src: url('/fonts/Roboto-Regular.ttf') format('truetype');
-  }
+}
