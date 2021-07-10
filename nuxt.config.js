@@ -13,7 +13,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preload', as: 'font', type: 'font/ttf', href: '/fonts/Roboto-Regular.ttf', crossorigin: true }
     ]
   },
 
@@ -21,15 +22,6 @@ export default {
   css: [
     '~assets/global.css'
   ],
-
-  render: {
-    bundleRenderer: {
-      shouldPreload: (_file, type) => {
-        console.log(_file, type)
-        return ['script', 'style', 'font'].includes(type)
-      }
-    }
-  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
