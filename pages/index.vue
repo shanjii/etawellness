@@ -1,9 +1,7 @@
 <template>
-  <body>
     <section class="placeholder">
       <h3 class="center">Website under development.</h3>
     </section>
-  </body>
 </template>
 
 <script>
