@@ -1,7 +1,8 @@
 <template>
-    <section class="placeholder">
-      <h3 class="center">Website under development.</h3>
-    </section>
+  <section id="background">
+    <Header />
+    <section id="body"></section>
+  </section>
 </template>
 
 <script>
@@ -10,14 +11,8 @@ export default {};
 
 
 <style scoped>
-
-.placeholder{
-  display: flex;
-  width: 100vw;
+#background{
   height: 100vh;
-}
-
-.center{
-  margin: auto;
+  background-color: rgb(231, 231, 231);
 }
 </style>
