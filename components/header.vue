@@ -8,9 +8,9 @@
     </section>
     <section id="navbar">
       <nav>
-        <a href="#"><b>Home</b></a>
-        <a href="#"><b>Meanings</b></a>
-        <a href="#"><b>About</b></a>
+        <a class="navbar-button" href="#"><b>Home</b></a>
+        <a class="navbar-button" href="#"><b>Meanings</b></a>
+        <a class="navbar-button" href="#"><b>About</b></a>
       </nav>
     </section>
   </div>
@@ -48,15 +48,31 @@ h3 {
   z-index: 999;
   position: relative;
   top: -15px;
-  background-color: rgb(100, 100, 100);
   border-radius: 100px;
 }
 
 #navbar > nav {
   display: flex;
   width: 100%;
-  padding: 13px;
   justify-content: space-around;
+}
+
+.navbar-button {
+  background-color: rgb(92, 92, 92);
+  width: 100%;
+  text-align: center;
+  padding: 13px;
+}
+.navbar-button:hover {
+  background-color: rgb(167, 167, 167);
+}
+.navbar-button:first-child {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.navbar-button:last-child {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 .logo {
   margin-top: auto;
@@ -70,5 +86,20 @@ h3 {
 a {
   color: white;
   text-decoration: none;
+}
+@media (max-width: 1000px) {
+  .logo {
+    margin-right: 0px;
+  }
+  #banner > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #navbar {
+    width: 90%;
+  }
 }
 </style>
