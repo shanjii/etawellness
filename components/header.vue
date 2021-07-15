@@ -99,7 +99,7 @@ a {
     padding-right: 10px;
   }
   #navbar {
-    width: 90%;
+    width: 95%;
   }
 }
 </style>
