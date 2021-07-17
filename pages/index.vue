@@ -1,5 +1,9 @@
 <template>
-  
+  <section>
+    <Banner />
+    <Navbar />
+    
+  </section>
 </template>
 
 <script>
@@ -8,5 +12,4 @@ export default {};
 
 
 <style scoped>
-
 </style>
