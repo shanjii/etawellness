@@ -13,7 +13,7 @@
         <h3>Our Mission</h3>
       </div>
       <p>
-        Welcome to ETA Wellness Anxiety Support Group.
+        Welcome to ETA Wellness.
         <br /><br />
         Our mission is to provide peer support for individuals suffering from
         <b>anxiety</b> or <b>anxiety disorders.</b>
@@ -62,7 +62,7 @@
     </section>
     <div id="location" class="box-div">
       <section class="image-box">
-        <img src="/images/church.jpg" alt="Image of a church" />
+        <img src="/images/location.jpg" alt="Image of a church" />
       </section>
       <section class="right-box">
         <div class="title-right">

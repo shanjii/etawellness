@@ -1,6 +1,6 @@
 <template>
   <section @click="open" id="button">
-    <p>Read the manual</p>
+    <p>Read the guide</p>
   </section>
 </template>
 
