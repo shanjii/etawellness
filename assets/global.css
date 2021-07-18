@@ -6,3 +6,17 @@ li{
     text-decoration: none;
     list-style-type: none;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Inter-Regular.ttf') format('truetype');
+}

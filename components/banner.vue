@@ -14,9 +14,9 @@ export default {};
 
 <style scoped>
 #banner {
+  transition: linear 100ms;
   display: flex;
   height: 454px;
-  width: 100vw;
   background-image: url("/images/banner.jpg");
   background-size: cover;
   background-position: center;
@@ -28,7 +28,24 @@ export default {};
   height: 100%;
 }
 #logo {
-    margin-top: 40px;
-    margin-left: 40px;
+  transition: linear 100ms;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+@media (max-width: 1000px) {
+  #banner {
+    height: 254px;
+    background-image: url("/images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #logo {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  img {
+    width: 150px;
+  }
 }
 </style>
