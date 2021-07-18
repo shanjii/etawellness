@@ -4,6 +4,16 @@
       <div id="logo">
         <img src="/icons/logo.svg" alt="" />
       </div>
+      <div class="contact">
+        <div>
+          <h3 class="number">732-285-5785</h3>
+          <img class="phone" height="32" src="/icons/phone.svg" alt="" />
+        </div>
+        <div>
+          <h3 class="email">aredonet8@gmail.com.</h3>
+          <img class="mail" height="40" src="/icons/mail.svg" alt="" />
+        </div>
+      </div>
     </span>
   </section>
 </template>
@@ -23,6 +33,7 @@ export default {};
 }
 #banner-filter {
   display: flex;
+  background-image: linear-gradient(#000000b7, #00000000, #00000000);
   background-color: rgba(0, 0, 0, 0.39);
   width: 100%;
   height: 100%;
@@ -31,6 +42,40 @@ export default {};
   transition: linear 100ms;
   margin-top: 40px;
   margin-left: 40px;
+}
+.contact {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.contact > div {
+  display: flex;
+}
+.phone {
+  position: relative;
+  top: -1px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.mail {
+  position: relative;
+  top: -3px;
+  margin-left: auto;
+  margin-right: 7px;
+}
+
+.number {
+  color: white;
+  margin-left: auto;
+  margin-right: -59px;
+  font-family: "Inter";
+}
+
+.email {
+  color: white;
+  margin-left: auto;
+  margin-right: 10px;
+  font-family: "Inter";
 }
 
 @media (max-width: 1000px) {
@@ -46,6 +91,9 @@ export default {};
   }
   img {
     width: 150px;
+  }
+  .contact {
+    display: none;
   }
 }
 </style>

@@ -30,7 +30,7 @@ export default {
   border-radius: 20px;
 }
 #button:hover {
-  background-color: rgb(136, 136, 136);
+  background-color: rgb(29, 29, 29);
   transform: translateY(-5px);
 }
 p {

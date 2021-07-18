@@ -57,13 +57,13 @@ export default {
 <style scoped>
 #navbar {
   user-select: none;
-  transition: linear 100ms;
+  transition: ease-in 200ms;
   margin-top: -70px;
   z-index: 2;
   display: flex;
   height: 70px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.562);
+  background-color: #0000008f;
 }
 .button-region {
   display: flex;
@@ -72,7 +72,7 @@ export default {
   width: 80%;
   justify-content: space-around;
 }
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
@@ -101,6 +101,7 @@ img {
 .navbar-scrolled {
   position: fixed;
   top: 70px;
+  background-color: #000000 !important;
 }
 @media (max-width: 1000px) {
   li {

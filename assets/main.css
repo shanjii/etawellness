@@ -5,6 +5,11 @@
   scroll-snap-margin-top: 70px;
 }
 
+.map-div {
+  margin: auto;
+  width: 100%;
+}
+
 .image-box {
   width: 50%;
 }

@@ -91,6 +91,19 @@
         </p>
       </section>
     </div>
+    <section class="middle-box">
+      <h3>Find us on the map!</h3>
+      <div class="map-div">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.5690557318303!2d9.515269215840465!3d46.85217274777898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4784c70c74cbe553%3A0x7fee9a2fe1ba1049!2sHemaris%20AG!5e0!3m2!1sen!2sbr!4v1626597293940!5m2!1sen!2sbr"
+          width="90%"
+          height="550"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
   </section>
 </template>
 
@@ -98,6 +111,7 @@
 var scrolled, scrollSize, width;
 export default {
   mounted() {
+    var navbar = document.getElementById("navbar");
     this.updateWidth();
     window.onresize = () => {
       this.updateWidth();
@@ -105,9 +119,9 @@ export default {
     window.onscroll = () => {
       scrolled = document.documentElement.scrollTop;
       if (scrolled >= scrollSize) {
-        document.getElementById("navbar").classList.add("navbar-scrolled");
+        navbar.classList.add("navbar-scrolled");
       } else {
-        document.getElementById("navbar").classList.remove("navbar-scrolled");
+        navbar.classList.remove("navbar-scrolled");
       }
     };
   },
