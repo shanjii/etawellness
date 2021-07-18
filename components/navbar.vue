@@ -102,6 +102,9 @@ img {
   li {
     flex-direction: column;
   }
+  li:hover {
+  background-color: rgba(0, 0, 0, 0.562);
+}
   .icon {
     margin-left: 0px;
     margin-top: auto;
