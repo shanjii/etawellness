@@ -14,7 +14,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preload', as: 'font', type: 'font/ttf', href: '/fonts/Roboto-Regular.ttf', crossorigin: true }
     ]
   },
 
