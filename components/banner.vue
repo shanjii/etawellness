@@ -19,7 +19,7 @@ export default {};
   height: 454px;
   background-image: url("/images/banner.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 #banner-filter {
   display: flex;
