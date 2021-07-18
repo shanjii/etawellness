@@ -8,8 +8,9 @@
 export default {
   methods: {
     open() {
-        window.open("https://docs.google.com/document/d/e/2PACX-1vTS4E8H8TO9GjqDdtsenza4rXpCnxk9HuPI9wgqIBr169gXCvW0OSmBZtAPuDUkWhhgqHY28T0SURDg/pub");
-
+      window.open(
+        "https://docs.google.com/document/d/e/2PACX-1vTS4E8H8TO9GjqDdtsenza4rXpCnxk9HuPI9wgqIBr169gXCvW0OSmBZtAPuDUkWhhgqHY28T0SURDg/pub"
+      );
     },
   },
 };
@@ -38,5 +39,14 @@ p {
   color: white;
   padding: 20px;
   margin: auto;
+}
+@media (max-width: 1000px) {
+  p {
+    font-family: "Inter";
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    margin: auto;
+  }
 }
 </style>
