@@ -2,8 +2,9 @@
     margin: 0;
 }
 
-html {
-    font-family: 'Roboto';
+li{
+    text-decoration: none;
+    list-style-type: none;
 }
 
 @font-face {
@@ -11,4 +12,11 @@ html {
     font-style: normal;
     font-weight: 400;
     src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Inter-Regular.ttf') format('truetype');
 }
