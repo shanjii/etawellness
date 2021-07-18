@@ -103,6 +103,12 @@ img {
   top: 70px;
   background-color: #000000 !important;
 }
+@media (max-width: 1300px) {
+  li {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+}
 @media (max-width: 1000px) {
   li {
     flex-direction: column;
