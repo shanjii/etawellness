@@ -1,6 +1,6 @@
 <template>
   <section id="navbar">
-    <div class="button-region">
+    <ul class="button-region">
       <li @click="navigate('mission')">
         <p>MISSION</p>
         <img height="28px" class="icon" src="/icons/flag.svg" alt="" />
@@ -21,7 +21,7 @@
         <p>DONATE</p>
         <img height="30px" class="icon" src="/icons/donate.svg" alt="" />
       </li>
-    </div>
+    </ul>
   </section>
 </template>
 
@@ -71,6 +71,10 @@ export default {
   margin-right: auto;
   width: 80%;
   justify-content: space-around;
+}
+ul{
+  margin: 0;
+  padding: 0;
 }
 li {
   transition: ease-in 200ms;
