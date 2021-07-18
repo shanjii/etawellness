@@ -127,7 +127,7 @@ export default {
   methods: {
     updateWidth() {
       width = window.innerWidth;
-      width > 1000 ? (scrollSize = window.innerHeight - 70) : (scrollSize = 184);
+      scrollSize = window.innerHeight - 70
     },
   },
 };

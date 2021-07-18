@@ -79,12 +79,6 @@ export default {};
 }
 
 @media (max-width: 1000px) {
-  #banner {
-    height: 254px;
-    background-image: url("/images/banner.jpg");
-    background-size: cover;
-    background-position: center;
-  }
   #logo {
     margin-top: 20px;
     margin-left: 10px;
