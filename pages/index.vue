@@ -18,7 +18,7 @@
         <br /><br />
         Our mission is to provide peer support for individuals suffering from
         <b>anxiety</b> or <b>anxiety disorders.</b>
-        
+
         We operate in accordance with the belief that peer support is an
         effective way to combat hopelessness, gain new perspectives, and share
         effective coping strategies to manage and maintain wellness.
@@ -41,13 +41,26 @@
           tristique leo et sollicitudin pharetra. Duis pretium enim ac pulvinar
           eleifend. Sed lobortis quam quis enim rutrum viverra. Proin maximus
           interdum volutpat. Nam lorem lectus, egestas ac lorem vitae, varius
-          
         </p>
       </section>
       <section class="image-box">
         <img src="/images/group.jpg" alt="" srcset="" />
       </section>
     </div>
+    <section id="guide" class="middle-box">
+      <div class="title-middle">
+        <img
+          class="icon-large"
+          height="190px"
+          src="/icons/manual.svg"
+          alt=""
+          srcset=""
+        />
+        <h3>Newcomer’s Guide</h3>
+      </div>
+      <p>Free and Informative!</p>
+      <Button />
+    </section>
     <div id="location" class="box-div">
       <section class="image-box">
         <img src="/images/church.jpg" alt="" srcset="" />

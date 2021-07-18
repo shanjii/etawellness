@@ -9,6 +9,10 @@
         <p>GROUPS</p>
         <img height="28px" class="icon" src="/icons/group.svg" alt="" />
       </li>
+      <li @click="navigate('guide')">
+        <p>GUIDE</p>
+        <img height="30px" class="icon" src="/icons/manual.svg" alt="" />
+      </li>
       <li @click="navigate('location')">
         <p>LOCATION</p>
         <img height="28px" class="icon" src="/icons/location.svg" alt="" />
@@ -27,16 +31,19 @@ export default {
     navigate(value) {
       switch (value) {
         case "mission":
-          location.href = "#mission";
+          document.getElementById('mission').scrollIntoView(false);
           break;
         case "groups":
-          location.href = "#groups";
+          document.getElementById('groups').scrollIntoView(false);
+          break;
+        case "guide":
+          document.getElementById('guide').scrollIntoView(false);
           break;
         case "location":
-          location.href = "#location";
+          document.getElementById('location').scrollIntoView(false);
           break;
         case "donate":
-          location.href = "#donate";
+          // document.getElementById('donate').scrollIntoView(false);
           break;
 
         default:
@@ -110,8 +117,8 @@ img {
     width: 100%;
   }
   li {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 </style>
