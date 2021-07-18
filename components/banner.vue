@@ -26,8 +26,8 @@ export default {};
 #banner {
   transition: linear 100ms;
   display: flex;
-  height: 454px;
-  background-image: url("/images/banner.jpg");
+  height: 100vh;
+  background-image: url("/images/banner2.jpg");
   background-size: cover;
   background-position: center;
 }
