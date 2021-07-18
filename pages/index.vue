@@ -14,16 +14,14 @@
         <h3>Our Mission</h3>
       </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique
-        leo et sollicitudin pharetra. Duis pretium enim ac pulvinar eleifend.
-        Sed lobortis quam quis enim rutrum viverra. Proin maximus interdum
-        volutpat. Nam lorem lectus, egestas ac lorem vitae, varius tempor
-        tellus. Ut vehicula ante et velit aliquam, eget posuere orci ultricies.
-        Duis convallis malesuada tortor, quis scelerisque ipsum malesuada sed.
-        Cras vitae leo tellus. Aenean dictum nibh vitae ex volutpat euismod.
-        Etiam quis purus purus. Donec vel dolor leo. Suspendisse in ante quam.
-        Proin accumsan imperdiet risus, eu volutpat ipsum blandit sed. Mauris
-        tincidunt accumsan facilisis. Integer fringilla ultrices tellus.
+        Welcome to ETA Wellness Anxiety Support Group.
+        <br /><br />
+        Our mission is to provide peer support for individuals suffering from
+        <b>anxiety</b> or <b>anxiety disorders.</b>
+        
+        We operate in accordance with the belief that peer support is an
+        effective way to combat hopelessness, gain new perspectives, and share
+        effective coping strategies to manage and maintain wellness.
       </p>
     </section>
     <div id="groups" class="box-div">
@@ -43,13 +41,7 @@
           tristique leo et sollicitudin pharetra. Duis pretium enim ac pulvinar
           eleifend. Sed lobortis quam quis enim rutrum viverra. Proin maximus
           interdum volutpat. Nam lorem lectus, egestas ac lorem vitae, varius
-          tempor tellus. Ut vehicula ante et velit aliquam, eget posuere orci
-          ultricies. Duis convallis malesuada tortor, quis scelerisque ipsum
-          malesuada sed. Cras vitae leo tellus. Aenean dictum nibh vitae ex
-          volutpat euismod. Etiam quis purus purus. Donec vel dolor leo.
-          Suspendisse in ante quam. Proin accumsan imperdiet risus, eu volutpat
-          ipsum blandit sed. Mauris tincidunt accumsan facilisis. Integer
-          fringilla ultrices tellus.
+          
         </p>
       </section>
       <section class="image-box">

@@ -1,7 +1,6 @@
 .box-div {
   display: flex;
   width: 100%;
-  height: auto;
 }
 
 .image-box {
@@ -24,8 +23,8 @@ h3 {
 p {
   font-family: 'Roboto';
   font-size: 24px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 p.offset {
