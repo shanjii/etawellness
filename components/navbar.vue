@@ -3,23 +3,23 @@
     <ul class="button-region">
       <li @click="navigate('mission')">
         <p>MISSION</p>
-        <img height="28px" class="icon" src="/icons/flag.svg" alt="" />
+        <img height="28px" class="icon" src="/icons/flag.svg" alt="Flag icon" />
       </li>
       <li @click="navigate('groups')">
         <p>GROUPS</p>
-        <img height="28px" class="icon" src="/icons/group.svg" alt="" />
+        <img height="28px" class="icon" src="/icons/group.svg" alt="Group icon" />
       </li>
       <li @click="navigate('guide')">
         <p>GUIDE</p>
-        <img height="30px" class="icon" src="/icons/manual.svg" alt="" />
+        <img height="30px" class="icon" src="/icons/manual.svg" alt="Guide icon" />
       </li>
       <li @click="navigate('location')">
         <p>LOCATION</p>
-        <img height="28px" class="icon" src="/icons/location.svg" alt="" />
+        <img height="28px" class="icon" src="/icons/location.svg" alt="Location icon" />
       </li>
       <li @click="navigate('donate')">
         <p>DONATE</p>
-        <img height="30px" class="icon" src="/icons/donate.svg" alt="" />
+        <img height="30px" class="icon" src="/icons/donate.svg" alt="Donation icon" />
       </li>
     </ul>
   </section>

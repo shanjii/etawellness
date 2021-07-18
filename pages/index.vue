@@ -8,8 +8,7 @@
           class="icon-large"
           height="110px"
           src="/icons/flag.svg"
-          alt=""
-          srcset=""
+          alt="Flag icon"
         />
         <h3>Our Mission</h3>
       </div>
@@ -31,7 +30,7 @@
             class="icon-large"
             height="110px"
             src="/icons/group.svg"
-            alt=""
+            alt="Flag icon"
             srcset=""
           />
           <h3>Groups</h3>
@@ -44,7 +43,7 @@
         </p>
       </section>
       <section class="image-box">
-        <img src="/images/group.jpg" alt="" srcset="" />
+        <img src="/images/group.jpg" alt="People holding hands" srcset="" />
       </section>
     </div>
     <section id="guide" class="middle-box">
@@ -53,7 +52,7 @@
           class="icon-large"
           height="190px"
           src="/icons/manual.svg"
-          alt=""
+          alt="Guide icon"
           srcset=""
         />
         <h3>Newcomer’s Guide</h3>
@@ -63,7 +62,7 @@
     </section>
     <div id="location" class="box-div">
       <section class="image-box">
-        <img src="/images/church.jpg" alt="" srcset="" />
+        <img src="/images/church.jpg" alt="Image of a church" />
       </section>
       <section class="right-box">
         <div class="title-right">
@@ -72,7 +71,7 @@
             class="icon-large"
             height="110px"
             src="/icons/location.svg"
-            alt=""
+            alt="Location icon"
             srcset=""
           />
         </div>

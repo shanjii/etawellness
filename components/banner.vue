@@ -2,16 +2,16 @@
   <section id="banner">
     <span id="banner-filter">
       <div id="logo">
-        <img src="/icons/logo.svg" alt="" />
+        <img src="/icons/logo.svg" alt="Logo of the ORG" />
       </div>
       <div class="contact">
         <div>
           <h3 class="number">732-285-5785</h3>
-          <img class="phone" height="32" src="/icons/phone.svg" alt="" />
+          <img class="phone" height="32" src="/icons/phone.svg" alt="Phone icon" />
         </div>
         <div>
           <h3 class="email">aredonet8@gmail.com.</h3>
-          <img class="mail" height="40" src="/icons/mail.svg" alt="" />
+          <img class="mail" height="40" src="/icons/mail.svg" alt="Mail icon" />
         </div>
       </div>
     </span>
