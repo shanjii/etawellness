@@ -31,16 +31,16 @@ export default {
     navigate(value) {
       switch (value) {
         case "mission":
-          document.getElementById('mission').scrollIntoView(false);
+          document.getElementById("mission").scrollIntoView(true);
           break;
         case "groups":
-          document.getElementById('groups').scrollIntoView(false);
+          document.getElementById("groups").scrollIntoView(true);
           break;
         case "guide":
-          document.getElementById('guide').scrollIntoView(false);
+          document.getElementById("guide").scrollIntoView(true);
           break;
         case "location":
-          document.getElementById('location').scrollIntoView(false);
+          document.getElementById("location").scrollIntoView(true);
           break;
         case "donate":
           // document.getElementById('donate').scrollIntoView(false);

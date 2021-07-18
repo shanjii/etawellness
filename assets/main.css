@@ -1,6 +1,7 @@
 .box-div {
   display: flex;
   width: 100%;
+  scroll-margin-top: 70px;
 }
 
 .image-box {
@@ -76,6 +77,7 @@ p.offset {
 .middle-box {
   display: flex;
   flex-direction: column;
+  scroll-margin-top: 70px;
   background-color: #F6F6F6;
   text-align: center;
   width: auto;
