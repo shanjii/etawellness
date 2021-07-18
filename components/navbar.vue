@@ -1,19 +1,19 @@
 <template>
   <section id="navbar">
     <div class="button-region">
-      <li>
+      <li @click="navigate('mission')">
         <p>MISSION</p>
         <img height="28px" class="icon" src="/icons/flag.svg" alt="" />
       </li>
-      <li>
+      <li @click="navigate('groups')">
         <p>GROUPS</p>
         <img height="28px" class="icon" src="/icons/group.svg" alt="" />
       </li>
-      <li>
+      <li @click="navigate('location')">
         <p>LOCATION</p>
         <img height="28px" class="icon" src="/icons/location.svg" alt="" />
       </li>
-      <li>
+      <li @click="navigate('donate')">
         <p>DONATE</p>
         <img height="30px" class="icon" src="/icons/donate.svg" alt="" />
       </li>
@@ -22,7 +22,29 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    navigate(value) {
+      switch (value) {
+        case "mission":
+          location.href = "#mission";
+          break;
+        case "groups":
+          location.href = "#groups";
+          break;
+        case "location":
+          location.href = "#location";
+          break;
+        case "donate":
+          location.href = "#donate";
+          break;
+
+        default:
+          break;
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -91,6 +113,5 @@ img {
     padding-right: 20px;
     padding-left: 20px;
   }
- 
 }
 </style>

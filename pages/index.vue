@@ -2,7 +2,7 @@
   <section>
     <Banner />
     <Navbar />
-    <section class="middle-box">
+    <section id="mission" class="middle-box">
       <div class="title-middle">
         <img
           class="icon-large"
@@ -26,7 +26,7 @@
         tincidunt accumsan facilisis. Integer fringilla ultrices tellus.
       </p>
     </section>
-    <div class="box-div">
+    <div id="groups" class="box-div">
       <section class="left-box">
         <div class="title-left">
           <img
@@ -56,7 +56,7 @@
         <img src="/images/group.jpg" alt="" srcset="" />
       </section>
     </div>
-    <div class="box-div">
+    <div id="location" class="box-div">
       <section class="image-box">
         <img src="/images/church.jpg" alt="" srcset="" />
       </section>
