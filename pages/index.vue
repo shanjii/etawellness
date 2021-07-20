@@ -57,7 +57,10 @@
         />
         <h3>Newcomer’s Guide</h3>
       </div>
-      <p>Free and Informative!</p>
+      <p>
+        New to ETAWellness? Take a look at our newcomer's guide!<br />
+        (One is given to each new member when they come to a meeting).
+      </p>
       <Button />
     </section>
     <div id="location" class="box-div">
