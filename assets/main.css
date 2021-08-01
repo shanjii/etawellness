@@ -203,9 +203,11 @@ p.offset {
   order: 1;
 }
 
-#donate>section>div {
-  margin-top: 0px;
-  color: rgb(41, 41, 41);
+@media (max-width: 1000px) {
+  #donate>section>div {
+    margin-top: 0px;
+    color: rgb(41, 41, 41);
+  }
 }
 
 iframe {
