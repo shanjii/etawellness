@@ -43,7 +43,7 @@ export default {
           document.getElementById("location").scrollIntoView(true);
           break;
         case "donate":
-          // document.getElementById('donate').scrollIntoView(false);
+          document.getElementById('donate').scrollIntoView(true);
           break;
 
         default:

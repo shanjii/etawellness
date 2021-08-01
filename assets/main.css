@@ -198,3 +198,16 @@ p.offset {
 }
 
 /* #endregion right-box */
+
+#donate>section {
+  order: 1;
+}
+
+#donate>section>div {
+  margin-top: 0px;
+  color: rgb(41, 41, 41);
+}
+
+iframe {
+  transition: linear 300ms;
+}

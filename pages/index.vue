@@ -106,6 +106,43 @@
         ></iframe>
       </div>
     </section>
+    <div id="donate" class="box-div">
+      <section class="left-box">
+        <div class="title-left">
+          <img
+            class="icon-large"
+            height="110px"
+            src="/icons/donate.svg"
+            alt="Flag icon"
+            srcset=""
+          />
+          <h3>Donate</h3>
+        </div>
+        <p class="offset">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+          tristique leo et sollicitudin pharetra. Duis pretium enim ac pulvinar
+          eleifend. Sed lobortis quam quis enim rutrum viverra. Proin maximus
+          interdum volutpat. Nam lorem lectus, egestas ac lorem vitae, varius
+        </p>
+      </section>
+      <section class="image-box">
+        <script
+          src="https://donorbox.org/widget.js"
+          paypalExpress="false"
+        ></script>
+        <iframe
+          src="https://donorbox.org/embed/eta-wellness"
+          name="donorbox"
+          allowpaymentrequest=""
+          seamless="seamless"
+          frameborder="0"
+          scrolling="no"
+          height="900px"
+          width="100%"
+        ></iframe>
+      </section>
+    </div>
+  <Footer/>
   </section>
 </template>
 
