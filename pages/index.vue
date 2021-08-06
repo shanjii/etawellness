@@ -146,6 +146,7 @@
   </section>
 </template>
 
+
 <script>
 var scrolled, scrollSize, width;
 export default {
