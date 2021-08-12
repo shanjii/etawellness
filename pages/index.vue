@@ -94,8 +94,8 @@
       </section>
     </div>
     <section class="middle-box">
-      <h3>Find us on the map!</h3>
-      <div class="map-div">
+      <!-- <h3>Find us on the map!</h3> -->
+      <div class="map-div" style="margin-top:50px">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.5690557318303!2d9.515269215840465!3d46.85217274777898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4784c70c74cbe553%3A0x7fee9a2fe1ba1049!2sHemaris%20AG!5e0!3m2!1sen!2sbr!4v1626597293940!5m2!1sen!2sbr"
           width="90%"
@@ -106,7 +106,7 @@
         ></iframe>
       </div>
     </section>
-    <div id="donate" class="box-div">
+    <!-- <div id="donate" class="box-div">
       <section class="left-box">
         <div class="title-left">
           <img
@@ -141,7 +141,7 @@
           width="100%"
         ></iframe>
       </section>
-    </div>
+    </div> -->
   <Footer/>
   </section>
 </template>
