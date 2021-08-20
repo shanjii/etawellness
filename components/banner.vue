@@ -22,6 +22,7 @@
     </span>
     <img
       v-if="easterEgg > 6"
+      @click="easterEgg = 0"
       src="https://cdn.discordapp.com/emojis/684330616170348565.png"
       class="inigo"
       alt=""
@@ -102,6 +103,7 @@ export default {
 }
 
 .inigo {
+  cursor: pointer;
   position: absolute;
   transform: rotate(180deg);
   left: 30vw;
