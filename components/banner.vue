@@ -1,13 +1,18 @@
 <template>
   <section id="banner">
     <span id="banner-filter">
-      <div id="logo">
+      <div id="logo" @click="clickLogo()">
         <img src="/icons/logo.svg" alt="Logo of the ORG" />
       </div>
       <div class="contact">
         <div>
           <h3 class="number">732-285-5785</h3>
-          <img class="phone" height="32" src="/icons/phone.svg" alt="Phone icon" />
+          <img
+            class="phone"
+            height="32"
+            src="/icons/phone.svg"
+            alt="Phone icon"
+          />
         </div>
         <div>
           <h3 class="email">aredonet8@gmail.com</h3>
@@ -15,11 +20,29 @@
         </div>
       </div>
     </span>
+    <img
+      v-if="easterEgg > 6"
+      src="https://cdn.discordapp.com/emojis/684330616170348565.png"
+      class="inigo"
+      alt=""
+    />
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  data: function () {
+    return {
+      easterEgg: 0,
+      showInigo: false,
+    };
+  },
+  methods: {
+    clickLogo() {
+      this.easterEgg++;
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -78,6 +101,13 @@ export default {};
   font-family: "Inter";
 }
 
+.inigo {
+  position: absolute;
+  transform: rotate(180deg);
+  left: 30vw;
+  animation: easteregg 2s;
+}
+
 @media (max-width: 1000px) {
   #banner {
     height: 254px;
@@ -94,6 +124,15 @@ export default {};
   }
   .contact {
     display: none;
+  }
+}
+
+@keyframes easteregg {
+  0% {
+    transform: translateY(-200px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(180deg);
   }
 }
 </style>
